@@ -1,0 +1,225 @@
+/*第一屏*/
+.header,
+.screen-1__title {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.screen-1__desc {
+    -webkit-transition: all 1s ease-in-out 1s;
+    -moz-transition: all 1s ease-in-out 1s;
+    -ms-transition: all 1s ease-in-out 1s;
+    -o-transition: all 1s ease-in-out 1s;
+    transition: all 1s ease-in-out 1s;
+}
+.header_animate_init {
+    transform: translate(0,-100%);
+    opacity: 0;
+}
+.screen-1__title_animate_init,
+.screen-1__desc_animate_init {
+    transform: translate(0,100%);
+    opacity: 0;
+}
+.header_animate_done,
+.screen-1__title_animate_done,
+.screen-1__desc_animate_done {
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+/*第二屏*/
+.screen-2__title,
+.screen-2__desc,
+.screen-2__img-people {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.screen-2__title_animate_init,
+.screen-2__desc_animate_init,
+.screen-2__mark_animate_init,
+.screen-2__img-people_animate_init,
+.screen-2__img-rocket_animate_init {
+    transform: translate(0,100%);
+    opacity: 0;
+}
+
+.screen-2__title_animate_done,
+.screen-2__desc_animate_done,
+.screen-2__mark_animate_done,
+.screen-2__img-people_animate_done,
+.screen-2__img-rocket_animate_done {
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+.screen-2__mark,
+.screen-2__img-rocket {
+    -webkit-transition: all 1s ease-in-out 1s;
+    -moz-transition: all 1s ease-in-out 1s;
+    -ms-transition: all 1s ease-in-out 1s;
+    -o-transition: all 1s ease-in-out 1s;
+    transition: all 1s ease-in-out 1s;
+}
+
+/*第三屏*/
+.screen-3__content__title,
+.screen-3__content__mark,
+.screen-3__content__desc,
+.screen-3__img {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.screen-3__content__icon {
+    -webkit-transition: all 1s ease-in-out 1s;
+    -moz-transition: all 1s ease-in-out 1s;
+    -ms-transition: all 1s ease-in-out 1s;
+    -o-transition: all 1s ease-in-out 1s;
+    transition: all 1s ease-in-out 1s;
+}
+
+.screen-3__img_animate_init {
+    opacity: 0;
+}
+.screen-3__img_animate_done {
+    opacity: 1;
+}
+
+.screen-3__content__title_animate_init,
+.screen-3__content__icon_animate_init,
+.screen-3__content__mark_animate_init,
+.screen-3__content__desc_animate_init {
+    transform: translate(0,100%);
+    opacity: 0;
+}
+
+.screen-3__content__title_animate_done,
+.screen-3__content__icon__animate_done,
+.screen-3__content__mark__animate_done,
+.screen-3__content__desc__animate_done {
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+
+/*第四屏*/
+.screen-4__title,
+.screen-4__example-1,
+.screen-4__example-2,
+.screen-4__example-3,
+.screen-4__example-4 {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.screen-4__mark,
+.screen-4__desc {
+    -webkit-transition: all 1s ease-in-out .5s;
+    -moz-transition: all 1s ease-in-out .5s;
+    -ms-transition: all 1s ease-in-out .5s;
+    -o-transition: all 1s ease-in-out .5s;
+    transition: all 1s ease-in-out .5s;
+}
+
+.screen-4__example-1_animate_init,
+.screen-4__example-2_animate_init,
+.screen-4__example-3_animate_init,
+.screen-4__example-4_animate_init {
+    opacity: 0;
+    transform: scale(0,0);
+}
+
+.screen-4__example-1_animate_done,
+.screen-4__example-2_animate_done,
+.screen-4__example-3_animate_done,
+.screen-4__example-4_animate_done {
+    opacity: 1;
+    transform: scale(1,1);
+}
+
+.screen-4__title_animate_init,
+.screen-4__mark_animate_init,
+.screen-4__desc_animate_init {
+    opacity: 0;
+    transform: translate(0,100%);
+}
+
+.screen-4__title_animate_done,
+.screen-4__mark_animate_done,
+.screen-4__desc_animate_done {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+/*第五屏*/
+.screen-5__img,
+.screen-5__title {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.screen-5__mark,
+.screen-5__desc {
+    -webkit-transition: all 1s ease-in-out .5s;
+    -moz-transition: all 1s ease-in-out .5s;
+    -ms-transition: all 1s ease-in-out .5s;
+    -o-transition: all 1s ease-in-out .5s;
+    transition: all 1s ease-in-out .5s;
+}
+
+.screen-5__img_animate_init,
+.screen-5__title_animate_init,
+.screen-5__mark_animate_init,
+.screen-5__desc_animate_init {
+    transform: translate(0,100%);
+    opacity: 0;
+}
+
+.screen-5__img_animate_done,
+.screen-5__title_animate_done,
+.screen-5__mark_animate_done,
+.screen-5__desc_animate_done {
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+/*第六屏*/
+.screen-6__button {
+    transition: all .3s;
+}
+.screen-6__button:hover {
+    transform: scale(1.1,1.1);
+}
+
+/*侧边栏*/
+.outline {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.outline_animate_init {
+    transform: translate(100%,0);
+    opacity: 0;
+}
+
+.header__nav-tip {
+    transition: all .5s;
+}

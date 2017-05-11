@@ -1,0 +1,467 @@
+/*头部区域*/
+
+header {
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+    height: 58px;
+}
+.header__logo {
+    position: absolute;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 50px;
+    background: url("../img/logo.png") left top no-repeat;
+    font-size: 20px;
+    left: 10px;
+    top: 9px;
+    font-weight: 700;
+}
+.header__nav {
+    position: absolute;
+    right: 30px;
+    top: 9px;
+    height: 40px;
+}
+.header__nav-item {
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 40px;
+    color: #fff;
+}
+.header__nav-item:last-of-type {
+    margin: 0;
+    width: 96px;
+    height: 40px;
+    border-radius: 3px;
+    background: #f01400;
+    text-align: center;
+}
+.header__nav-item:last-of-type:hover {
+    background: #ff402f;
+}
+.header__nav-tip {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:58px;
+    height: 2px;
+    background: #f01400;
+}
+
+/*active*/
+.header__nav-item_status_active {
+    font-weight: 700;
+}
+
+/*第一屏*/
+.screen-1 {
+    height: 640px;
+    width: 100%;
+    background: url("../img/sc1.jpg") top center no-repeat;
+    background-size: cover;
+    position: relative;
+    top:0;
+    left: 0;
+    text-align: center;
+    overflow: hidden;
+}
+.screen-1__title {
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 800;
+    padding-top: 176px;
+    padding-bottom: 34px;
+}
+
+/*第二屏*/
+.screen-2 {
+    width: 100%;
+    height: 640px;
+    position: relative;
+    text-align: center;
+    background: #f3f5f7 url("../img/sc2.png") center bottom no-repeat;
+    overflow: hidden;
+}
+.screen-2__title {
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 800;
+    padding-top: 90px;
+    padding-bottom: 38px;
+    color: #07111b;
+}
+.screen-2__mark {
+    width: 50px;
+    height: 2px;
+    background: #ff0000;
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    margin-left: -25px;
+}
+.screen-2__desc {
+    color: #07111b;
+    padding-top: 26px;
+    line-height: 20px;
+}
+.screen-2__img-people {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -137.5px;
+    width: 275px;
+    height: 380px;
+    z-index: 2;
+}
+.screen-2__img-rocket {
+    width: 266px;
+    height: 206px;
+    position: absolute;
+    top: 52%;
+    left: 46%;
+}
+
+/*第三屏*/
+.screen-3 {
+    width: 100%;
+    height: 640px;
+    background: #2b333b;
+    overflow: hidden;
+}
+.screen-3__warp {
+    position: relative;
+    height: 640px;
+}
+.screen-3__img {
+    height: 630px;
+    width: 570px;
+    background: url("../img/sc3.png") top center no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+.screen-3__content {
+    width: 514px;
+    height: 366px;
+    position: absolute;
+    bottom: 46px;
+    right: 0;
+    text-align: left;
+}
+.screen-3__content__title {
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 34px;
+}
+.screen-3__content__mark {
+    width: 50px;
+    height: 2px;
+    background: #ff0000;
+    margin: 32px 0;
+}
+.screen-3__content__desc {
+    line-height: 20px;
+}
+
+.screen-3__content__icon {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.screen-3__content__icon > div {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.screen-3__content__icon > div::before{
+    content: "";
+    display: block;
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    background: #2b333b;
+}
+
+.screen-3__content__icon-1 {
+    background: #1f5975;
+}
+.screen-3__content__icon-2 {
+    background: #424d79;
+}
+.screen-3__content__icon-3 {
+    background: #6b4146;
+}
+.screen-3__content__icon-4 {
+    background: #29535f;
+}
+.screen-3__content__icon-5 {
+    background: #3e4e40;
+}
+
+.screen-3__content__icon-1::after {
+    content: 'HTML5';
+    height: 66px;
+    width: 66px;
+    line-height: 66px;
+    color: #2b6de0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.screen-3__content__icon-2::after {
+    content: 'PHP';
+    height: 66px;
+    width: 66px;
+    line-height: 66px;
+    color: #7888FD;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.screen-3__content__icon-3::after {
+    content: 'JAVA';
+    height: 66px;
+    width: 66px;
+    line-height: 66px;
+    color: #DD413B;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.screen-3__content__icon-4::after {
+    content: 'Python';
+    height: 66px;
+    width: 66px;
+    line-height: 66px;
+    color: #22aba5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.screen-3__content__icon-5::after {
+    content: 'Node.js';
+    height: 66px;
+    width: 66px;
+    line-height: 66px;
+    color: #76bd56;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+}
+
+/*第四屏*/
+.screen-4 {
+    width: 100%;
+    height: 640px;
+    position: relative;
+    text-align: center;
+    background: #f3f5f7;
+    overflow: hidden;
+}
+.screen-4__title {
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 800;
+    padding-top: 90px;
+    padding-bottom: 38px;
+    color: #07111b;
+}
+.screen-4__mark {
+    width: 50px;
+    height: 2px;
+    background: #ff0000;
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    margin-left: -25px;
+}
+.screen-4__desc {
+    color: #07111b;
+    padding-top: 26px;
+    line-height: 20px;
+}
+.screen-4__example {
+    position: absolute;
+    width: 1140px;
+    left: 50%;
+    margin-left: -570px;
+    bottom: 180px;
+}
+.screen-4__example > div {
+    float: left;
+    width: 164px;
+    margin-right: 160px;
+    text-align: center;
+}
+.screen-4__example > div:last-of-type {
+    margin: 0;
+}
+.screen-4__example__desc {
+    line-height: 60px;
+    color: #07111b;
+}
+
+/*第五屏*/
+.screen-5 {
+    width: 100%;
+    height: 640px;
+    position: relative;
+    text-align: center;
+    background: url("../img/sc5.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.screen-5__img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    margin-left: -100px;
+    top: 98px;
+}
+.screen-5__title {
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 800;
+    padding-top: 355px;
+}
+.screen-5__mark {
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 428px;
+    left: 50%;
+    margin-left: -25px;
+}
+.screen-5__desc {
+    padding-top: 62px;
+    line-height: 20px;
+}
+
+/*第六屏*/
+.screen-6 {
+    height: 200px;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+.screen-6__button {
+    position: absolute;
+    width: 238px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 3px;
+    color: #000;
+    left: 50%;
+    margin-left: -120px;
+    top: 71px;
+    font-size: 18px;
+}
+
+/*footer*/
+footer {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background: #000;
+    padding-top: 30px;
+}
+.footer__link {
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.footer__link > a {
+    margin-right: 30px;
+    font-size: 12px;
+}
+.footer__link > a:hover {
+    color: #ff0000;
+}
+
+.footer__copyright {
+    font-size: 16px;
+    color: #787d82;
+}
+
+/*侧边栏*/
+.outline {
+    position: fixed;
+    padding: 5px 10px;
+    bottom: 120px;
+    right: 0;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: -2px 3px 20px 0px rgba(7, 17, 27, 0.1);
+    z-index: 3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.outline__item {
+    display: block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 0;
+    background: #fff;
+    margin: 5px 0px 0px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    color: #07111b;
+}
+.outline__item:first-child{
+    border:none;
+}
+.outline__item:hover,
+.outline__item_status_active{
+    color: #ff0000;
+}
+
+/*导航栏固定的样式*/
+.header {
+    transition: all 1s;
+}
+.header_status_fixed {
+    background: #fff;
+    opacity: .5;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.header__nav-item_status_fixed {
+    color: #000;
+}

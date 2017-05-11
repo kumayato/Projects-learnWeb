@@ -1,0 +1,36 @@
+
+div,p,h1,h2,h3,h4,h5,h6,a{
+    font: 14px 宋体;
+    text-decoration: none;
+    color: #fff;
+}
+ul,dl,dd,body,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+input{
+    border: 0 none;
+    outline-style: none;
+    margin: 0 ;
+    padding: 0;
+}
+.clearfix:after{
+    content: "";
+    height: 0;
+    line-height:0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom:1;
+}
+
+*[class$="warp"] {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
